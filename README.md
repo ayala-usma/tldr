@@ -1,9 +1,14 @@
-TL DR Too Long Didn't Read App
-#----------------------------------------------------------------------------
-# Created By: Olga Patricia Nieto, Daniel De León, Ernesto Alejandro Martínez, Alex Fabián Gómez, Marcela Sánchez Jiménez, Daniel Hernández, and David Aurelia Ayala Usma
-# Created Date: 2022-07-07
-# Version = 0.0.1
-# ---------------------------------------------------------------------------
+# TL DR Too Long Didn't Read App
+# ----------------------------------------------------------------------------
+Created By: Olga Patricia Nieto, Daniel De León, Ernesto Alejandro Martínez, Alex Fabián Gómez, Marcela Sánchez Jiménez, Daniel Hernández, and David Aurelia Ayala Usma
+Created Date: 2022-07-07
+Version = 0.0.1
+# ----
+
+This repository is currently unmaintained and kept here for reference and portfolio purposes.
+----
+
+
 Requirements
 
 General requirements: Can be found in the file setup.py
