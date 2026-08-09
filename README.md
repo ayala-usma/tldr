@@ -16,7 +16,7 @@ General requirements: Can be found in the file setup.py
 Front End Requirements
 
 
-# --------------------------------------------------------------------------
+----
 Contents
 
 1. shared - General storage for backend and general information not used directly in the use of the app
@@ -40,12 +40,12 @@ Contents
         2.2.4 pdf_processor - Contains the module script for PDF to text transformation and also divide the document into pages / paragraphs and extracting the executive summary, classification and keywords
         2.2.5 topic_modeling Contains the module script that transform text by using NLP tools like regex, NLTK and the spanish spaCy pipeline for processing into non-stop words, lemmas and standarization to keep only significative terms for the search and topic identification within the text.
 
-#-------------------------------------------------------------------------
+----
 Back-End Setup process
 1. Run the Source/modules/conpes_download script from the bash terminal for webscraping the PDF documents of the files from the DNP site. You can select the Year range of the documents webscrapped
 2. Run the Source/modules/conpes_db script from the bash terminal to process all PDF documents in the shared/PDF folder using the pdf_processor and topic_modeling modules. (Takes about 2 hours to set up)
 
-#------------------------------------------------------------------------
+----
 App Deployment process
 1. Run the src/app/tldr.py script from the bash terminal using the command 'streamlit run tldr.py'
 
